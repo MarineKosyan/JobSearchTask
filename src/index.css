@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: deepskyblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main {
+  padding-top: 130px;
+  width: 1125px;
+  margin: auto;
+}
+.settings {
+  float: right;
+  width: 150px;
+  margin-top: 15px;
+}
+.dropdown {
+  position: absolute;
+  background-color: #f1f1f1;
+  margin-left: -98px;
+}
+
+.dropdown-content {
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 15px;
+}
+
+.colors {
+  width: 30px;
+  height: 28px;
+  margin: 2px;
+}
+
+.settings img {
+  width: 50px;
+  height: 50px;
+  background-color: #fbf3f3;
+  padding: 10px;
+}
+
+.searchBox {
+  width: 1076px;
+  height: 35px;
+  padding: 10px;
+  background-color: white;
+  margin: auto;
+  border: 15px solid rgba(98, 93, 107, 0.59);
+  border-radius: 10px;
+}
+
+.searchBox select {
+  margin-right: 50px;
+}
+
+.searchBox button {
+  float: right;
+  width: 110px;
+  height: 56px;
+  margin-top: -11px;
+  margin-right: -11px;
+  background-color: green;
+  border: none;
+  color: white;
+}
+#bookmark, #apply{
+  vertical-align: middle;
+}
+#btnBookmark{
+  background-color: #397aab;
+  color: white;
+  border: none;
+}
+#btnApply{
+  color: white;
+  border: none;
+}
+.buttons button{
+  float: right;
+  margin-bottom: 10px;
+  padding: 5px 13px;
+}
+#apply{
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+.filters {
+  float: left;
+  margin-right: 40px;
+}
+.filters .title {
+  width: 200px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #fbf3f3;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.filters p {
+    font-size: 14px;
+}
+.filters span {
+  font-weight: bold;
+}
+.filters img {
+  float: right;
+}
+.filters .filter {
+  background-color: white;
+  padding: 10px;
+}
+.filters label {
+  display: block;
+  padding: 5px;
+}
+
+.jobs {
+  float: left;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.job {
+  width: 800px;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 20px;
+  height: 101px
+}
+
+.job span {
+  font-size: 13px;
+  margin: 0 20px 0 3px;
+}
+
+.job .logo {
+  float: left;
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.job .middle {
+  vertical-align: middle;
+}
+.breadcrumb {
+  float: left;
+}
+.breadcrumb  h1, h4 {
+  color: white;
+  padding-left: 15px;
+}
+.item{
+  float: left;
+  width: 625px;
+}
+
+select {
+  width: 150px;
+}
